@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f3e6dcbf-3312-4d0a-b00e-7b816b3b1cf1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Практическая_работа_6.py</StartupFile>
+    <StartupFile>4-Sample 1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="2-decorator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3-decorator s param.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-Sample 1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Практическая_работа_6.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
